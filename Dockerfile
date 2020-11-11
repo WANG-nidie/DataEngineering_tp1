@@ -1,6 +1,6 @@
-FROM python:3.6
+FROM python:3.5
 
-WORKDIR /app
+WORKDIR /TP
 
 ENV FLASK_APP=app.py
 
