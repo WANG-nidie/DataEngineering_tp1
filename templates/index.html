@@ -1,0 +1,25 @@
+<HTML>
+<style type="text/css">
+ body{
+  background-color: green;
+ }
+ 
+ 
+ 
+ 
+</style>
+<form method="POST" action="">
+    <center>
+    <H1>Text Sentiment analyse </H1> <br>
+    Input word/sentence: <input type = "text" name = "sentence" /> <br>
+    <input type="hidden" name="form_type" value="get_sentiment"/>
+    <input type = "submit">
+    </center>
+</form>
+<center>
+<span class="result">
+    <div>{{ result }}</div>
+</span>
+</center>
+</BODY>
+</HTML>
